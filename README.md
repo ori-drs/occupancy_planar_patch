@@ -8,14 +8,14 @@
     <a href="https://ori.ox.ac.uk/people/lintong-zhang/" target="_blank">Lintong Zhang</a><sup>3</sup>,
     <a href="https://ayoungk.github.io/" target="_blank">Ayoung Kim</a><sup>2</sup>,
     <a href="https://ori.ox.ac.uk/people/maurice-fallon/" target="_blank">Maurice Fallon</a><sup>1</sup><br>
-    <sup>1</sup>Dynamic Robot Systems Group, University of Oxford &nbsp;&nbsp;
+    <sup>1</sup>University of Oxford &nbsp;&nbsp;
     <sup>2</sup>Seoul National University &nbsp;&nbsp;
     <sup>3</sup>NavLive
   </p>
 
-  [<img src="https://img.shields.io/badge/Paper-PDF-b31b1b?style=social&logo=adobeacrobatreader" alt="Paper">](https://dynamic.robots.ox.ac.uk/docs/assets/papers/2026_wang_opp.pdf)
+  [<img src="https://img.shields.io/badge/Paper--b31b1b?style=social&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI0UyMjMxQSIgZD0iTTE0IDJINmEyIDIgMCAwIDAtMiAydjE2YTIgMiAwIDAgMCAyIDJoMTJhMiAyIDAgMCAwIDItMlY4em0tMSAxLjVMMTguNSA5SDEzeiIvPjx0ZXh0IHg9IjEyIiB5PSIxOC41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNi41IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+UERGPC90ZXh0Pjwvc3ZnPg==" alt="Paper">](https://dynamic.robots.ox.ac.uk/docs/assets/papers/2026_wang_opp.pdf)
   [<img src="https://img.shields.io/badge/YouTube--red?style=social&logo=youtube" alt="YouTube">](https://youtu.be/lkPlSdKEf1M)
-  [<img src="https://img.shields.io/badge/Project%20Page--4285F4?style=social&logo=googlechrome" alt="Project Page">](https://jiahao.wang/opp)
+  [<img src="https://img.shields.io/badge/Project%20Page--4285F4?style=social&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMUE3M0U4IiBzdHJva2Utd2lkdGg9IjIiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTIgMTJoMjBNMTIgMmExNSAxNSAwIDAgMSAwIDIwTTEyIDJhMTUgMTUgMCAwIDAgMCAyMCIvPjwvZz48L3N2Zz4=" alt="Project Page">](https://jiahao.wang/opp)
 
   <img src="media/teaser.jpg" alt="Textured OPP reconstruction of Observatory01 (Oxford Spires Dataset)" width="80%">
 </div>
