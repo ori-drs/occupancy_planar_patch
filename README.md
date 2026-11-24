@@ -13,7 +13,7 @@
     <sup>3</sup>NavLive
   </p>
 
-  [<img src="https://img.shields.io/badge/Paper--b31b1b?style=social&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI0UyMjMxQSIgZD0iTTE0IDJINmEyIDIgMCAwIDAtMiAydjE2YTIgMiAwIDAgMCAyIDJoMTJhMiAyIDAgMCAwIDItMlY4em0tMSAxLjVMMTguNSA5SDEzeiIvPjx0ZXh0IHg9IjEyIiB5PSIxOC41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNi41IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+UERGPC90ZXh0Pjwvc3ZnPg==" alt="Paper">](https://dynamic.robots.ox.ac.uk/docs/assets/papers/2026_wang_opp.pdf)
+  [<img src="https://img.shields.io/badge/arXiv--b31b1b?style=social&logo=arxiv" alt="arXiv">](https://arxiv.org/abs/2611.28403)
   [<img src="https://img.shields.io/badge/YouTube--red?style=social&logo=youtube" alt="YouTube">](https://youtu.be/lkPlSdKEf1M)
   [<img src="https://img.shields.io/badge/Project%20Page--4285F4?style=social&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMUE3M0U4IiBzdHJva2Utd2lkdGg9IjIiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTIgMTJoMjBNMTIgMmExNSAxNSAwIDAgMSAwIDIwTTEyIDJhMTUgMTUgMCAwIDAgMCAyMCIvPjwvZz48L3N2Zz4=" alt="Project Page">](https://jiahao.wang/opp)
 
@@ -24,9 +24,28 @@ Occupancy Planar Patch (OPP) is an incremental bounded planar patch representati
 
 Evaluated on six sequences from the [Oxford Spires](https://dynamic.robots.ox.ac.uk/datasets/oxford-spires/) and [MCD](https://mcdviral.github.io/) datasets, OPP achieves the highest precision and lowest reconstruction error among the evaluated methods, while producing stored maps among the most compact. Geometric reconstruction runs in real time.
 
-## 🗺️ 3D Models
+## 🌐 Live Demo
 
-Reconstructed 3D models from the paper will be added here shortly. In the meantime, you can explore them interactively on the [project page](https://jiahao.wang/opp).
+The [project page](https://jiahao.wang/opp) features an in-browser viewer with reconstruction cut-outs and interactive method comparisons.
+
+## 🗺️ Reconstruction Results
+
+Ahead of the code release, you can inspect OPP's reconstruction quality for yourself.
+
+**Download.** Textured reconstructions of the six evaluation sequences, at the full texture resolution used in the paper, are available as [GLB](https://www.khronos.org/gltf/) files from the [`models-v1` release](https://github.com/ori-drs/occupancy_planar_patch/releases/tag/models-v1).
+
+| Preview | Dataset | Sequence | Patches | Size | Download |
+|---|---|---|---:|---:|---|
+| <a href="media/models/bodleian02.jpg"><img src="media/models/bodleian02.jpg" width="200"></a> | Oxford Spires | bodleian02 | 47,834 | 224 MB | [bodleian02.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/bodleian02.glb) |
+| <a href="media/models/keble03.jpg"><img src="media/models/keble03.jpg" width="200"></a> | Oxford Spires | keble03 | 15,002 | 67 MB | [keble03.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/keble03.glb) |
+| <a href="media/models/observatory01.jpg"><img src="media/models/observatory01.jpg" width="200"></a> | Oxford Spires | observatory01 | 33,688 | 119 MB | [observatory01.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/observatory01.glb) |
+| <a href="media/models/kth_day_10.jpg"><img src="media/models/kth_day_10.jpg" width="200"></a> | MCD | kth_day_10 | 89,298 | 132 MB | [kth_day_10.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/kth_day_10.glb) |
+| <a href="media/models/ntu_day_02.jpg"><img src="media/models/ntu_day_02.jpg" width="200"></a> | MCD | ntu_day_02 | 59,120 | 52 MB | [ntu_day_02.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/ntu_day_02.glb) |
+| <a href="media/models/tuhh_day_02.jpg"><img src="media/models/tuhh_day_02.jpg" width="200"></a> | MCD | tuhh_day_02 | 82,133 | 104 MB | [tuhh_day_02.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/tuhh_day_02.glb) |
+
+**Viewing.** Open a file in [gltf-viewer.donmccurdy.com](https://gltf-viewer.donmccurdy.com/) or import it into [Blender](https://www.blender.org/) (File → Import → glTF 2.0).
+
+**File sizes.** These include the camera textures, so they are larger than the texture-free map sizes reported in the paper (e.g. 30.2 MiB for Keble03).
 
 ## 💻 Code
 
