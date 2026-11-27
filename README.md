@@ -24,6 +24,10 @@ Occupancy Planar Patch (OPP) is an incremental bounded planar patch representati
 
 Evaluated on six sequences from the [Oxford Spires](https://dynamic.robots.ox.ac.uk/datasets/oxford-spires/) and [MCD](https://mcdviral.github.io/) datasets, OPP achieves the highest precision and lowest reconstruction error among the evaluated methods, while producing stored maps among the most compact. Geometric reconstruction runs in real time.
 
+## 💻 Code
+
+🚧 **Code release coming soon.** Watch this repository to be notified.
+
 ## 🌐 Live Demo
 
 The [project page](https://jiahao.wang/opp) features an in-browser viewer with reconstruction cut-outs and interactive method comparisons.
@@ -32,24 +36,22 @@ The [project page](https://jiahao.wang/opp) features an in-browser viewer with r
 
 Ahead of the code release, you can inspect OPP's reconstruction quality for yourself.
 
-**Download.** Textured reconstructions of the six evaluation sequences, at the full texture resolution used in the paper, are available as [GLB](https://www.khronos.org/gltf/) files from the [`models-v1` release](https://github.com/ori-drs/occupancy_planar_patch/releases/tag/models-v1).
+**Download.** Textured reconstructions of the six evaluation sequences, at the full texture resolution used in the paper, are available as [GLB](https://www.khronos.org/gltf/) files from the [`models-v1` release](https://github.com/ori-drs/occupancy_planar_patch/releases/tag/models-v1). Each also comes as a patch-colour model: the same patches without texture, each in its own colour, which shows the reconstructed geometry also where no camera observed it.
 
-| Preview | Dataset | Sequence | Patches | Size | Download |
-|---|---|---|---:|---:|---|
-| <a href="media/models/bodleian02.jpg"><img src="media/models/bodleian02.jpg" width="200"></a> | Oxford Spires | bodleian02 | 47,834 | 224 MB | [bodleian02.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/bodleian02.glb) |
-| <a href="media/models/keble03.jpg"><img src="media/models/keble03.jpg" width="200"></a> | Oxford Spires | keble03 | 15,002 | 67 MB | [keble03.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/keble03.glb) |
-| <a href="media/models/observatory01.jpg"><img src="media/models/observatory01.jpg" width="200"></a> | Oxford Spires | observatory01 | 33,688 | 119 MB | [observatory01.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/observatory01.glb) |
-| <a href="media/models/kth_day_10.jpg"><img src="media/models/kth_day_10.jpg" width="200"></a> | MCD | kth_day_10 | 89,298 | 132 MB | [kth_day_10.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/kth_day_10.glb) |
-| <a href="media/models/ntu_day_02.jpg"><img src="media/models/ntu_day_02.jpg" width="200"></a> | MCD | ntu_day_02 | 59,120 | 52 MB | [ntu_day_02.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/ntu_day_02.glb) |
-| <a href="media/models/tuhh_day_02.jpg"><img src="media/models/tuhh_day_02.jpg" width="200"></a> | MCD | tuhh_day_02 | 82,133 | 104 MB | [tuhh_day_02.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/tuhh_day_02.glb) |
+| Textured | Patches | Dataset | Sequence | Patches | Textured GLB | Patch-colour GLB |
+|---|---|---|---|---:|---|---|
+| <a href="media/models/bodleian02.jpg"><img src="media/models/bodleian02.jpg" width="200"></a> | <a href="media/models/bodleian02_patches.jpg"><img src="media/models/bodleian02_patches.jpg" width="200"></a> | Oxford Spires | bodleian02 | 47,834 | [bodleian02.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/bodleian02.glb) (224 MB) | [bodleian02_patches.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/bodleian02_patches.glb) (27 MB) |
+| <a href="media/models/keble03.jpg"><img src="media/models/keble03.jpg" width="200"></a> | <a href="media/models/keble03_patches.jpg"><img src="media/models/keble03_patches.jpg" width="200"></a> | Oxford Spires | keble03 | 15,002 | [keble03.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/keble03.glb) (67 MB) | [keble03_patches.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/keble03_patches.glb) (8 MB) |
+| <a href="media/models/observatory01.jpg"><img src="media/models/observatory01.jpg" width="200"></a> | <a href="media/models/observatory01_patches.jpg"><img src="media/models/observatory01_patches.jpg" width="200"></a> | Oxford Spires | observatory01 | 33,688 | [observatory01.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/observatory01.glb) (119 MB) | [observatory01_patches.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/observatory01_patches.glb) (15 MB) |
+| <a href="media/models/kth_day_10.jpg"><img src="media/models/kth_day_10.jpg" width="200"></a> | <a href="media/models/kth_day_10_patches.jpg"><img src="media/models/kth_day_10_patches.jpg" width="200"></a> | MCD\* | kth_day_10 | 89,298 | [kth_day_10.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/kth_day_10.glb) (132 MB) | [kth_day_10_patches.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/kth_day_10_patches.glb) (49 MB) |
+| <a href="media/models/ntu_day_02.jpg"><img src="media/models/ntu_day_02.jpg" width="200"></a> | <a href="media/models/ntu_day_02_patches.jpg"><img src="media/models/ntu_day_02_patches.jpg" width="200"></a> | MCD\* | ntu_day_02 | 59,120 | [ntu_day_02.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/ntu_day_02.glb) (52 MB) | [ntu_day_02_patches.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/ntu_day_02_patches.glb) (27 MB) |
+| <a href="media/models/tuhh_day_02.jpg"><img src="media/models/tuhh_day_02.jpg" width="200"></a> | <a href="media/models/tuhh_day_02_patches.jpg"><img src="media/models/tuhh_day_02_patches.jpg" width="200"></a> | MCD\* | tuhh_day_02 | 82,133 | [tuhh_day_02.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/tuhh_day_02.glb) (104 MB) | [tuhh_day_02_patches.glb](https://github.com/ori-drs/occupancy_planar_patch/releases/download/models-v1/tuhh_day_02_patches.glb) (42 MB) |
+
+\* **Due to single-camera coverage, the MCD sequences are mostly untextured; the patch-colour models show the full reconstructed geometry.**
 
 **Viewing.** Open a file in [gltf-viewer.donmccurdy.com](https://gltf-viewer.donmccurdy.com/) or import it into [Blender](https://www.blender.org/) (File → Import → glTF 2.0).
 
 **File sizes.** These include the camera textures, so they are larger than the texture-free map sizes reported in the paper (e.g. 30.2 MiB for Keble03).
-
-## 💻 Code
-
-🚧 **Code release coming soon.** Watch this repository to be notified.
 
 ## 📝 Citation
 
